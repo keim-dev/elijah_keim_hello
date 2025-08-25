@@ -1,18 +1,2 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+AI Usage Reflection:
+  I used copilot to write most of the code after level 1. Aside from naming conventions, there was only one issue with the code written by the AI and that was in level 3. During the try block, whenever an error was found instead of returning to the scanner to get input from the user again after outputting the error message the code ended. I used the bulleted requirements as the prompts for the AI and did not remove any of the code it wrote, however I did slightly edit it. I did not use AI at any point in the debugging process. Although I would not use this code in a ral world application I would definitley use one of a similar function in order to create a more welcoming and user friendly environment.
