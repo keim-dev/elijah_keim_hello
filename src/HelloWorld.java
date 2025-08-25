@@ -1,45 +1,48 @@
+/**
+ * Represents a person with a name and age, and provides greeting methods.
+ */
 public class HelloWorld {
     private final String name;
     private final int age;
 
-    // Constructor with only name
+    /**
+     * Constructs a HelloWorld object with a name and default age 0.
+     * @param name the person's name
+     */
     public HelloWorld(String name) {
         this.name = name;
         this.age = 0; // Default age if not provided
     }
 
-    // Constructor with name and age
+    /**
+     * Constructs a HelloWorld object with a name and age.
+     * @param name the person's name
+     * @param age the person's age
+     */
     public HelloWorld(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    // greet with default message
+    /**
+     * Prints a default greeting message.
+     */
     public void greet() {
         System.out.println("Hello, " + name + "!");
     }
 
-    // greet with custom message
+    /**
+     * Prints a custom greeting message.
+     * @param message the custom message
+     */
     public void greet(String message) {
         System.out.println(message + ", " + name + "!");
     }
 
-    // introduce method
+    /**
+     * Introduces the person with name and age.
+     */
     public void introduce() {
         System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
-    }
-
-    public static void main(String[] args) {
-        // Using first constructor
-        HelloWorld student1 = new HelloWorld("Elijah", 19);
-        student1.greet();
-        student1.greet("Welcome");
-        student1.introduce();
-
-        // Using second constructor
-        HelloWorld student2 = new HelloWorld("Alex", 21);
-        student2.greet();
-        student2.greet("Hi");
-        student2.introduce();
     }
 }
