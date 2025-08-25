@@ -1,2 +1,4 @@
 AI Usage Reflection:
   I used copilot to write most of the code after level 1. Aside from naming conventions, there was only one issue with the code written by the AI and that was in level 3. During the try block, whenever an error was found instead of returning to the scanner to get input from the user again after outputting the error message the code ended. I used the bulleted requirements as the prompts for the AI and did not remove any of the code it wrote, however I did slightly edit it. I did not use AI at any point in the debugging process. Although I would not use this code in a ral world application I would definitley use one of a similar function in order to create a more welcoming and user friendly environment.
+
+  This repository contains the code for Levels 1,2, & 3 from the canvas assignment
